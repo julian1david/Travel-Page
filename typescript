@@ -1,0 +1,169 @@
+Script started on 2022-05-03 14:22:36-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="135" LINES="33"]
+[1m[7m%[27m[1m[0m                                                                                                                                       ]2;julianf@Julian:~/develop/tailwind]1;..elop/tailwind[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[?1h=[?2004h[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[1m[31mc[0m[39m[1m[31mc[1m[31ml[0m[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?1l>[?2004l
+]2;clear]1;clear[H[2J[3J[1m[7m%[27m[1m[0m                                                                                                                                       ]2;julianf@Julian:~/develop/tailwind]1;..elop/tailwind[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[?1h=[?2004h[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:22][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;33m❱[01;34m❱[01;31m❱[22;37m[00m [K[4mn[24m[4mn[4mo[24m[4mn[24m[24m [24m[1m[31mn[1m[31mp[0m[39m[0m[32mn[0m[32mp[32mm[39m w [4mt[24m[24mtw:build[?1l>[?2004l
+]2;npm tw:build]1;npmUnknown command: "tw:build"
+
+Did you mean one of these?
+    npm rebuild # Rebuild a package
+    npm run tw:build # run the "tw:build" package script
+
+To see a list of supported npm commands, run:
+  npm help
+[1m[7m%[27m[1m[0m                                                                                                                                       ]2;julianf@Julian:~/develop/tailwind]1;..elop/tailwind[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:23][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;31m❱❱❱[22;37m[00m [K[?1h=[?2004h[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:23][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;31m❱❱❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:23][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;31m❱❱❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:23][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;31m❱❱❱[22;37m[00m [K[0m[27m[24m[J[22;36m🧔🏻[22;36m[julianf@Julian][00m[00m 🤖 [22;36m[14:23][00m 📁[22;37m~/develop/tailwind[00m [22;31m[[22;33mmain[22;31m] 🔥[00m [01;31m❱❱❱[22;37m[00m [K[32mnpm[39m tw:buildrtw:build[8Dutw:build[8Dntw:build[8D tw:build[8D[?1l>[?2004l
+]2;npm run tw:build]1;npm
+> yes@1.0.0 tw:build
+> tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch
+
+
+Rebuilding...
+Done in 243ms.
+
+Rebuilding...
+Done in 100ms.
+
+Rebuilding...
+Done in 98ms.
+
+Rebuilding...
+Done in 79ms.
+
+Rebuilding...
+Done in 33ms.
+
+Rebuilding...
+Done in 71ms.
+
+Rebuilding...
+Done in 101ms.
+
+Rebuilding...
+Done in 77ms.
+
+Rebuilding...
+Done in 59ms.
+
+Rebuilding...
+Done in 40ms.
+
+Rebuilding...
+Done in 40ms.
+
+Rebuilding...
+Done in 126ms.
+
+Rebuilding...
+Done in 38ms.
+
+Rebuilding...
+Done in 76ms.
+
+Rebuilding...
+Done in 65ms.
+
+Rebuilding...
+Done in 72ms.
+
+Rebuilding...
+Done in 128ms.
+
+Rebuilding...
+Done in 67ms.
+
+Rebuilding...
+Done in 80ms.
+
+Rebuilding...
+Done in 71ms.
+
+Rebuilding...
+Done in 40ms.
+
+Rebuilding...
+Done in 88ms.
+
+Rebuilding...
+Done in 31ms.
+
+Rebuilding...
+Done in 87ms.
+
+Rebuilding...
+Done in 67ms.
+
+Rebuilding...
+Done in 41ms.
+
+Rebuilding...
+Done in 45ms.
+
+Rebuilding...
+Done in 43ms.
+
+Rebuilding...
+Done in 43ms.
+
+Rebuilding...
+Done in 354ms.
+
+Rebuilding...
+Done in 353ms.
+
+Rebuilding...
+Done in 99ms.
+
+Rebuilding...
+Done in 115ms.
+
+Rebuilding...
+Done in 118ms.
+
+Rebuilding...
+Done in 124ms.
+
+Rebuilding...
+Done in 87ms.
+
+Rebuilding...
+Done in 143ms.
+
+[1m[33mwarn[39m[22m - The `content` option in your Tailwind CSS configuration is missing or empty.
+[1m[33mwarn[39m[22m - Configure your content sources or your generated CSS will be missing styles.
+[1m[33mwarn[39m[22m - https://tailwindcss.com/docs/content-configuration
+
+Rebuilding...
+Done in 374ms.
+
+Rebuilding...
+Done in 404ms.
+
+Rebuilding...
+Done in 37ms.
+
+Rebuilding...
+Done in 39ms.
+
+Rebuilding...
+Done in 407ms.
+
+Rebuilding...
+Done in 295ms.
+
+Rebuilding...
+Done in 116ms.
+
+Rebuilding...
+Done in 178ms.
+
+Rebuilding...
+Done in 126ms.
+/home/julianf/develop/tailwind/tailwind.config.js:9
+      black: colors.black,
+             ^
+
+ReferenceError: colors is not defined
+    at Object.<anonymous> (/home/julianf/develop/tailwind/tailwind.config.js:9:14)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1099:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:975:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[90m    at Module.require (node:internal/modules/cjs

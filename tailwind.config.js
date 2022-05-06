@@ -1,10 +1,16 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   content: ['./public/**/*.{html,js}'],
+  darkMode: 'class',
   theme: {
     colors: {
       'primary':"#CC2D4A",
       'secondary':"#8FA206",
       'tertiary':"#61AEC9",
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
     },
     fontFamily: { 
       Montserrat: ["Monserrat", "sans-serif"],
@@ -22,12 +28,13 @@ module.exports = {
 			  'miami': "url('../img/miami.jpg')",
 			  'switzerland': "url('../img/switzerland.jpg')",
 			  'bali': "url('../img/bali.jpg')",
-			  'norway': "url('../img/norway.jpg')",
 			  'chicago': "url('../img/chicago.jpg')",
 			  'europe': "url('../img/europe.jpg')",
 			  'iceland': "url('../img/iceland.jpg')",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 };

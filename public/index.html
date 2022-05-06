@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -10,38 +10,158 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
-<body>
+<body class="font-[Montserrat] dark:bg-gray-900">
     <header>
-        <nav></nav>
-        <div id="tabBar"></div>
+        <nav class="w-full h-14 hidden bg-white lg:flex p-4 justify-between fixed z-10 dark:bg-gray-800 dark:text-white">
+            <div class="h-auto w-auto">
+                <p class="text-xl text-primary dark:text-white font-black">Platzi Travel</p>
+            </div>
+            <div class="flex space-x-8">
+                <a class="font-bold text-base text-primary dark:text-white" href="#home">Home</a>
+                <a class="font-bold text-base text-primary dark:text-white" href="#recommendations">Recommendations</a>
+                <a class="font-bold text-base text-primary dark:text-white" href="#trending">Trendings</a>
+                <a class="font-bold text-base text-primary dark:text-white" href="#faqs">FAQS</a>
+                <a class="font-bold text-base text-primary dark:text-white" href="#aboutUs">About us</a>
+            </div>
+            <div class="flex space-x-8">
+                <a href="#search">
+                    <i class="fa-solid fa-magnifying-glass text-xl text-primary dark:text-white"></i>
+                </a>
+                <button type="button" id="toggle">
+                    <i class="fa-solid fa-moon text-xl text-primary dark:text-white "></i>
+                </button>
+                <a href="#home">
+                    <i class="fa-solid fa-user text-xl text-gray-400 dark:text-white"></i>
+                </a>
+            </div>
+        </nav>
     </header>
-    <main>
-        <section class="w-full h-screen">
-            <div id="home">
-                <div class="w-fill h-3/4">
-                    <div class="w-full h-full">
-                        <img src="./img/sanFrancisco.jpg" alt="san francisco ">
-                    </div>
-                    <div class="w-full h-full flex flex-col absolute">
+    <main class="w-full h-auto mb-4"> 
+            <section class="lg:w-full lg:h-96" id="home">
+                <div class="w-full h-3/4 lg:h-full">
+                    <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:items-start lg:pt-44">
                         <input
-                        class=""
-                        type="search"
-                        name=""
-                        placeholder=/>
+                            class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12 lg:hidden"
+                            type="search" id="search" name="" placeholder="San Francisco" />
+                        <div class="hidden h-auto lg:w-2/5 lg:flex lg:pb-6">
+                            <p class="text-4xl ml-16 font-bold text-white lg:text-black">
+                                Find More locations like this.</p>
+                        </div>
                         <button
-                        class="bg-primary">
-                        To explore
-                      </button>
+                            class="w-40 rounded-full text-lg text-primary  shadow-sm font-semibold p-4 bg-white transition-all duration-500 ease-in-out hover:bg-primary hover:text-white hover:-translate-y-1 hover:scale-110 lg:ml-16 dark:text-black">
+                            Explore more
+                        </button>
+                    </div>
+                    <div class="w-full h-full lg:object-cover lg:h-full lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center">
+                        <img class="lg:hidden" src="./img/sanFrancisco.jpg" alt="san francisco ">
                     </div>
                 </div>
-            </div>
-            <div id="recommendations"></div>
-            <div id="featured_rentals"></div>
-        </section>
+            </section>
+            <section id="recommendations" class="p-6">
+                <p class="main-titles ">Our recommendations</p>
+                <div class="Card--container">
+                    <div class="Card">
+                        <div class="Card--cover bg-norway"></div>
+                        <div class="Card--description">
+                            <p class="Card--info__title">Norway</p>
+                            <p class="Card--info__subtitle">Beutiful landscape</p>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <div class="Card--cover bg-new_york"></div>
+                        <div class="Card--description ">
+                            <p class="Card--info__title">New York</p>
+                            <p class="Card--info__subtitle">Beutiful landscapes</p>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <div class="Card--cover bg-yosemite"></div>
+                        <div class="Card--description ">
+                            <p class="Card--info__title">Yosemit</p>
+                            <p class="Card--info__subtitle">A break from the world</p>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <div class="Card--cover bg-yosemite"></div>
+                        <div class="Card--description ">
+                            <p class="Card--info__title">Seattle</p>
+                            <p class="Card--info__subtitle"> Big Ciy</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="px-6 w-full lg:px-6 " id="trending">
+                <p class="main-titles pb-6 pt-2-">Trending Stays</p>
+                <div class="w-ful h-full grid grid-cols-1 lg:grid-cols-3 lg:place-items-center gap-6 lg:place-content-stretch"">
+                    <div class=" w-full h-96 bg-chicago bg-cover rounded-xl lg:h-[36rem]; lg:col-span-3 lg:bg-center">
+                        <p class=" Card--rent__Title">Chigaco</p>
+                        <p class="recommendation__description ">2 rooms, bathroom and kitchen.</p>
+                    </div>
+                    <div class="w-full h-96 bg-LA bg-cover rounded-xl lg:row-span-2 lg:h-full">
+                        <p class="Card--rent__Title">Los Angeles</p>
+                        <p class="recommendation__description">4 rooms, 3 bathrooms, kitchen and private pool.</p>
+                    </div>
+                    <div class="w-full h-96 bg-miami bg-cover rounded-xl lg:col-span-2">
+                        <p class="Card--rent__Title">Miami</p>
+                        <p class="recommendation__description">3 rooms, 2 bathrooms, kitchen and amazing sea view.</p>
+                    </div>
+                    <div class="w-full h-96 bg-bali bg-cover rounded-xl lg:col-span-2 ">
+                        <p class="Card--rent__Title">Bali</p>
+                        <p class="recommendation__description">2 rooms, 2 bathrooms kitchen and private pool.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="w-full h-full px-6 flex flex-col space-y-6" id="faqs">
+                    <p class="main-titles mt-6">FAQS</p>
+                    <div>
+                        <p class="fqa_titles">Payment Methods</p>
+                        <p class="fqa_description dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance, We accept VISA, 
+                            MasterCard, American Express, Paypal and Binance. </p>
+                    </div>
+                    <div>
+                        <p class="fqa_titles">Payment Methods</p>
+                        <p class="fqa_description dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance, We accept VISA, 
+                            MasterCard, American Express, Paypal and Binance.</p>
+                    </div>
+            </section>
     </main>
+    <footer class="w-full h-auto bg-gray-100 border-t-2  p-6 space-y-2 mt-8 mb-16 lg:mb-0 dark:bg-gray-800" id="aboutUs">
+        <p class="text-lg text-gray-400 font-bold">About Us</p>
+        <p class="text-sm text-gray-400 ">Inverstors</p>
+        <p class="text-sm text-gray-400 ">Jobs</p>
+        <p class="text-sm text-gray-400 ">Termns and Conditions</p>
+        <p class="text-sm text-gray-400 ">Platzi Travel, inc</p>
+        <p class="text-sm text-gray-400 ">Follow Us</p>
+        <div class="flex space-x-4">
+            <i class="fa-brands fa-twitter text-gray-400"></i>
+            <i class="fa-brands fa-instagram text-gray-400"></i>
+        </div>
+    </footer>
+    <div id="tab_bar"
+        class="w-full h-16 bg-white flex items-center justify-center space-x-10 fixed left-0 bottom-0 lg:hidden dark:bg-gray-700">
+        <a href="#home">
+            <i class="fa-solid fa-house text-xl dark:text-white"></i>
+        </a>
+        <a href="#search">
+            <i class="fa-solid fa-magnifying-glass text-xl text-primary dark:text-white"></i>
+        </a>
+        <a href="#recommendations">
+            <i class="fa-solid fa-heart text-xl dark:text-white"></i>
+        </a>
+        <a href="#home">
+            <i class="fa-solid fa-user text-xl dark:text-white"></i>
+        </a>
+        <button type="button" id="toggle">
+            <i class="fa-solid fa-moon text-xl  dark:text-white"></i>
+        </button>
+    </div>
+    <script src="../src/main.js"></script>
 </body>
 
 </html>

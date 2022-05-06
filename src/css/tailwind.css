@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.Card--container{
+    @apply w-auto h-auto flex space-x-6 overflow-x-auto overscroll-x-contain mt-6 items-center overflow-y-hidden;
+}
+.Card {
+    @apply w-48 h-64 shadow-md rounded-lg overflow-hidden flex-none transition-all hover:-translate-y-4 hover:shadow-xl;
+  }
+  .Card--cover {
+    @apply w-full h-3/5 bg-cover rounded-t-lg ;
+  }
+.Card--info {
+    @apply w-full h-2/5;
+  }
+.Card--description {
+    @apply w-full h-full bg-secondary rounded-b-lg ;
+  }
+.Card--info__title {
+    @apply text-white font-bold text-xl px-4 py-2 dark:text-white;
+  }
+.Card--info__subtitle{
+    @apply text-white text-base px-4;
+  }
+.Card:nth-child(odd) .Card--description{
+  @apply dark:bg-gray-700
+}
+.Card:nth-child(even) .Card--description {
+    @apply bg-white dark:bg-gray-800 ;
+  }
+.Card:nth-child(even) .Card--info__title,
+.Card:nth-child(even) .Card--info__subtitle {
+    @apply text-tertiary  dark:text-gray-300 ;
+  }
+  .Card--rent__Title{
+    @apply text-3xl px-8 pt-8 pb-1  text-white font-bold lg:text-right lg:mb-6;
+  }
+.main-titles{
+  @apply text-2xl font-semibold text-primary dark:text-white;
+}
+.recommendation__description{
+  @apply text-sm pl-8 mr-24 lg:text-lg text-white lg:text-right lg:mr-8;
+}
+.fqa_titles{
+  @apply text-xl font-medium text-primary dark:text-white;
+}
+.fqa_description{
+  @apply text-sm pt-4 ;
+}
