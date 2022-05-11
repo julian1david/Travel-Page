@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/css/tailwind.css">
+    <link rel="stylesheet" href="./css/tailwind.css">
     <title>Gogo Travel</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,12 +54,12 @@
                                 Find More locations like this.</p>
                         </div>
                         <button
-                            class="w-40 rounded-full text-lg text-primary  shadow-sm font-semibold p-4 bg-white transition-all duration-500 ease-in-out hover:bg-primary hover:text-white hover:-translate-y-1 hover:scale-110 lg:ml-16 dark:text-black">
+                            class="w-40 rounded-full text-lg text-primary  shadow-sm font-semibold p-4 bg-white transition-all duration-500 ease-in-out hover:bg-primary hover:text-white hover:-translate-y-1 hover:scale-110 lg:ml-16 dark:text-black dark:hover:bg-white">
                             Explore more
                         </button>
                     </div>
                     <div class="w-full h-full lg:object-cover lg:h-full lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center">
-                        <img class="lg:hidden" src="./public/img/sanFrancisco.jpg" alt="san francisco ">
+                        <img class="lg:hidden" src="./img/sanFrancisco.jpg" alt="san francisco ">
                     </div>
                 </div>
             </section>
@@ -88,10 +88,17 @@
                         </div>
                     </div>
                     <div class="Card">
-                        <div class="Card--cover bg-yosemite"></div>
+                        <div class="Card--cover bg-seattle"></div>
                         <div class="Card--description ">
                             <p class="Card--info__title">Seattle</p>
                             <p class="Card--info__subtitle"> Big Ciy</p>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <div class="Card--cover bg-icelandCard"></div>
+                        <div class="Card--description ">
+                            <p class="Card--info__title">Iceland</p>
+                            <p class="Card--info__subtitle">Cold city</p>
                         </div>
                     </div>
                 </div>
@@ -161,7 +168,7 @@
             <i class="fa-solid fa-moon text-xl  dark:text-white"></i>
         </button>
     </div>
-    <script src="./src/main.js"></script>
+    <script src="../src/main.js"></script>
 </body>
 
 </html>

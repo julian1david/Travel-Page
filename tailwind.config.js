@@ -31,6 +31,7 @@ module.exports = {
 			  'chicago': "url('../img/chicago.jpg')",
 			  'europe': "url('../img/europe.jpg')",
 			  'iceland': "url('../img/iceland.jpg')",
+			  'icelandCard': "url('../img/cards-mini/iceland.jpg')",
       },
     },
   },
