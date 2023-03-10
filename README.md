@@ -4,13 +4,13 @@ Practica de tailwind basico
 
 ## Vista del proyecto 🚀
 
-Mira **[Tailwind-Page](https://julian1david.github.io/tailwind-landingpage/)** para conocer como funciona el proyecto.
+Mira **[Tailwind-Page](https://julianf-dev-travel-page.netlify.app/)** para conocer como funciona el proyecto.
 
 
 ### Instalación 🔧
 
 ```
-git clone https://github.com/julian1david/tailwind-landingpage
+git clone https://github.com/julianf-dev/tailwind-landingpage
 ```
 
 Inicia el ./public/index.html  tu navegador
@@ -28,7 +28,7 @@ Cualquier contirbución al proyecto es bien recibida !
 
 ## Autor ✒️
 
-* **Julian F**  - [julian1f](https://github.com/julian1david)
+* **Julian F**  - [julian1f](https://github.com/julianf-dev)
 
 
 ## Licencia 📄
@@ -36,4 +36,4 @@ Cualquier contirbución al proyecto es bien recibida !
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE](LICENSE) para detalles
 
 ---
-Hecho con ❤️ por [julian1f](https://github.com/julian1david) 😊
+Hecho con ❤️ por [julian1f](https://github.com/julianf-dev) 😊

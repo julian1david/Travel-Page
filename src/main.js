@@ -1,3 +1,5 @@
+import './css/tailwind.css';
+
 const htmlElement = document.querySelector('html');
 const toggleButton = document.querySelectorAll('#toggle');
 

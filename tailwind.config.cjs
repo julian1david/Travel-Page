@@ -1,7 +1,8 @@
-const colors = require("tailwindcss/colors");
+const colors = require('tailwindcss/colors');
+/** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: ["./index.html", "./src/**/*.{html,js}", "./public/**/*.{html,js}"],
+  content: ["./index.html", "./src/**/*.{js,html}","./public/**/*.{html,js}"],
   darkMode: "class",
   theme: {
     colors: {
@@ -36,4 +37,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwind-scrollbar-hide")],
-};
+}

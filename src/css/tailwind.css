@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .Card--container{
     @apply w-auto h-auto flex space-x-6 overflow-x-auto overscroll-x-contain mt-6 items-center overflow-y-hidden;
 }

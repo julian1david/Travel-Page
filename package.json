@@ -1,5 +1,4 @@
 {
-  
   "name": "css-basic-tailwind",
   "version": "1.0.0",
   "description": "landing page whith tailwind framework",
@@ -30,9 +29,9 @@
   },
   "homepage": "https://github.com/julianf-dev/tailwind-landingpage#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.6",
-    "postcss": "^8.4.13",
-    "tailwindcss": "^3.0.24",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
     "vite": "^3.0.7"
   },
   "dependencies": {
